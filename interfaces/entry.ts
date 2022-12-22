@@ -4,4 +4,4 @@ export interface Entry {
   createAt: number;
   status: string;
 }
-export type EntryStatus = "pending" | "in-process" | "finished";
+export type EntryStatus = "pending" | "inProcess" | "finished";

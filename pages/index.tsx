@@ -18,7 +18,7 @@ const HomePage: NextPage = () => {
         <Grid item xs={12} sm={4}>
           <Card sx={{ height: "calc(100vh - 100px)" }}>
             <CardHeader title="Task in process" />
-            <EntryList status="in-process" />
+            <EntryList status="inProcess" />
           </Card>
         </Grid>
 
